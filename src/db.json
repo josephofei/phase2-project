@@ -3,98 +3,98 @@
         {
             "id": 1,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "John Doe",
+            "email": "johndoe@gmail.com",
+            "address": "123 Main St, Bronx, NY, 10234",
+            "number": "(564)-563-6773"
         },
         {
             "id": 2,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Jane Smith",
+            "number": "(347)-345-5667",
+            "email": "janesmith@gmail.com",
+            "address": "456 Elm St, Bronx, NY, 10345"
         },
         {
             "id": 3,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Bob Johnson",
+            "number": "(673)-567-2836",
+            "email": "bobjohnson@gmail.com",
+            "address": "789 Oak St, Plainvelle, CT, 08932"
         },
         {
             "id": 4,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Alice Williams",
+            "number": "(562)-563-6725",
+            "email": "alicewilliam@gmail.com",
+            "address": "321 Maple Ave, York, PA, 04562"
         },
         {
             "id": 5,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Michael Brown",
+            "number": "(562)-719-6782",
+            "email": "michaelbrown@gmail.com",
+            "address": "654 Pine Rd, Pittsfield, MA, 01562"
         },
         {
             "id": 6,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Emily Davis",
+            "number": "(572)-628-3944",
+            "email": "emilydavis@gmail.com",
+            "address": "987 Cedar Ln, Manchester, CT, 02345"
         },
         {
             "id": 7,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "David Miller",
+            "number": "(782)-820-5733",
+            "email": "davidmiller@gmail.com",
+            "address": "741 Oakwood Dr, chealse, CA, 06712"
         },
         {
             "id": 8,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Olivia Wilson",
+            "number": "(354)-567-5623",
+            "email": "oliviawilson@gmail.com",
+            "address": "852 Elmwood Ave, Bristol, CT, 08354"
         },
         {
             "id": 9,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Ava Rodriguez",
+            "number": "(562)-563-8438",
+            "email": "avarodriguez@gmail.com",
+            "address": "852 Oakwood Dr, Capital Towm, OH, 07284"
         },
         {
             "id": 10,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "James Anderson",
+            "number": "(673)-629-7323",
+            "email": "jamesanderson@gmail.com",
+            "address": "369 Pine St, Miles, GA, 07823"
         },
         {
             "id": 11,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Sophia Thompson",
+            "number": "(673)628-6732",
+            "email": "sophiathompson@gmail.com",
+            "address": "963 Maple Rd, fairfield, CT, 05623"
         },
         {
             "id": 12,
             "img:": "",
-            "name": "",
-            "number": "",
-            "email": "",
-            "address": ""
+            "name": "Daniel Garcia",
+            "number": "(923)-837-6729",
+            "email": "danielgarcia@gmail.com",
+            "address": "258 Cedar Ave, Leon, PA, 06723"
         }
     ]
 }
