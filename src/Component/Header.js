@@ -5,9 +5,9 @@ import data from "../db.json"
 function Header(props) {
 
     // generate a random name from the db.json and display as the user
-    const contact = data.contact
-    const generateRandomName = Math.floor(Math.random() * contact.length)
-    const name = contact[generateRandomName].name
+    // const contact = data.contact
+    // const generateRandomName = Math.floor(Math.random() * contact.length)
+    // const name = contact[generateRandomName].name
 
     return (
         <header>
