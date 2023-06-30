@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #20dad6;
+    padding: 25px 60px;
+    justify-content: space-between;
+
+}
+
+.header-img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.header-nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.header-buton {
+
+    width: fit-content;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.mycontact-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.form {
+    display: grid;
+    grid-template: 40px 40px 40px/ 1fr 1fr 1fr;
+    gap: 17px;
+    margin: 20px;
+    border: solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    height: 150px;
+    border-radius: 5px;
+
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.main-div {
+    display: flex;
+    grid-template-columns: repeat(4, 225px);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#contact-img {
+    width: 240px;
+    height: 260px;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.main-contact {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+
+}
+
+.contact-name {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* .contact-info {} */

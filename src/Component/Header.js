@@ -1,22 +1,24 @@
-import React, { useState } from "react";
-import data from "../db.json"
+import React from "react";
+
 
 
 function Header(props) {
 
     // generate a random name from the db.json and display as the user
-    // const contact = data.contact
-    // const generateRandomName = Math.floor(Math.random() * contact.length)
-    // const name = contact[generateRandomName].name
+
+
 
     return (
-        <header>
-            <h3>MY CONTACT</h3>
-            <nav>
-                <h3>Home</h3>
-                <h3>Forms</h3>
-                <button onClick={props.click}>{props.isLogin ? `Welcome ${name}` : "Login"}</button>
-            </nav>
+        <header className="header">
+            <div className="mycontact-logo">
+                <img className="header-img" src="https://www.svgrepo.com/show/13641/phone-call.svg" alt="contact" />
+                <h3>MY CONTACT</h3>
+            </div>
+
+            <h3 className="home">Home</h3>
+            <h3 className="header-form">Forms</h3>
+            <h3 className="header-contact">Contact</h3>
+            <button onClick={props.click} className="header-buton">{props.isLogin ? `Welcome` : "Login"}</button>
         </header>
     )
 
