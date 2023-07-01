@@ -2,7 +2,7 @@ import React from 'react'
 import Contacts from './Contacts'
 import Form from './Form'
 
-// function Main({ contacts, handleSubmit }) {
+function Main({ contacts, handleSubmit }) {
 
     return (
         <main>
