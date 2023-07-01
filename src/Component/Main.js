@@ -5,12 +5,12 @@ import Form from './Form'
 function Main({ contacts, handleSubmit }) {
 
     return (
-        <main>
-            {/* <Form handleSubmit={handleSubmit} /> */}
-            <Form />
-            <Contacts contacts={contacts} />
+        // <main>
+        //     {/* <Form handleSubmit={handleSubmit} /> */}
+        //     <Form />
+        //     <Contacts contacts={contacts} />
 
-        </main>
+        // </main>
     )
 }
 

@@ -46,9 +46,9 @@ function App() {
           <Contacts contacts={contacts} />
         </Route>
 
-        {/* <Route exact path="*">
+        <Route exact path="*">
           <h1>404 not found</h1>
-        </Route> */}
+        </Route>
 
       </Switch>
 
