@@ -66,13 +66,13 @@
     text-indent: 5px;
 }
 
-.main-div {
+/* .main-div {
     display: grid;
     grid-template-columns: repeat(4, 250px);
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-}
+} */
 
 #contact-img {
     width: 220px;
