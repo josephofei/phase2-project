@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar click={handleClick} isLogin={isLogin} />
+      {/* <NavBar click={handleClick} isLogin={isLogin} /> */}
 
       <Switch>
         <Route exact path="/">
@@ -38,9 +38,9 @@ function App() {
 
         </Route>
 
-        {/* <Route exact path="/form">
+        <Route exact path="/form">
           <Form handleNewObj={handleNewObj} />
-        </Route> */}
+        </Route>
 
         <Route exact path="/contact">
           <Contacts contacts={contacts} />
