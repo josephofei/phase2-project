@@ -10,8 +10,8 @@ function App() {
   // const [page, setPage] = useState("/")
 
   // state that will toggle the login and logout button
-  // const [isLogin, setIsLogin] = useState(false)
-  // const [contacts, setContacts] = useState([])
+  const [isLogin, setIsLogin] = useState(false)
+  const [contacts, setContacts] = useState([])
 
   useEffect(() => {
     fetch('http://localhost:3000/contacts')
@@ -46,9 +46,9 @@ function App() {
           <Contacts contacts={contacts} />
         </Route>
 
-        <Route exact path="*">
+        {/* <Route exact path="*">
           <h1>404 not found</h1>
-        </Route>
+        </Route> */}
 
       </Switch>
 
