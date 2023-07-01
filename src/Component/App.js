@@ -20,17 +20,17 @@ function App() {
   }, [])
 
 
-  function handleClick() {
-    setIsLogin((preState) => !preState)
-    console.log("click")
-  }
+  // function handleClick() {
+  //   setIsLogin((preState) => !preState)
+  //   console.log("click")
+  // }
   function handleNewObj(obj) {
     setContacts([...contacts, obj])
   }
 
   return (
     <div className="App">
-      {/* <NavBar click={handleClick} isLogin={isLogin} /> */}
+      <NavBar click={handleClick} isLogin={isLogin} />
 
       <Switch>
         <Route exact path="/">
