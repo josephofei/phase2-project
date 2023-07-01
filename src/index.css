@@ -74,14 +74,14 @@
     gap: 40px;
 }
 
-#contact-img {
+/* #contact-img {
     width: 220px;
     height: 260px;
     align-self: center;
     border-radius: 5px;
     object-fit: cover;
     padding-bottom: 8px;
-}
+} */
 
 .main-contact {
     flex-basis: 225px;
