@@ -38,9 +38,9 @@ function App() {
 
         </Route>
 
-        <Route exact path="/form">
+        {/* <Route exact path="/form">
           <Form handleNewObj={handleNewObj} />
-        </Route>
+        </Route> */}
 
         <Route exact path="/contact">
           <Contacts contacts={contacts} />
