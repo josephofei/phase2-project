@@ -59,12 +59,12 @@
 
 }
 
-/* .form--input {
+.form--input {
     font-family: "Karla", sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     text-indent: 5px;
-} */
+}
 
 .main-div {
     display: grid;
@@ -103,5 +103,5 @@
 .contact-info {
     padding-top: 5px;
     font-family: "Karla", sans-serif;
-    
+
 }
