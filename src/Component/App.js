@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Switch, Route } from "react-router-dom"
-import Header from "./Header"
+import NavBar from "./NavBar"
 import Form from './Form';
 import Contacts from "./Contacts"
-// import NavBar from './NavBar';
+import Main from './Main';
 
 function App() {
 
-  const [page, setPage] = useState("/")
+  // const [page, setPage] = useState("/")
 
   // state that will toggle the login and logout button
   const [isLogin, setIsLogin] = useState(false)
@@ -30,32 +30,27 @@ function App() {
 
   return (
     <div className="App">
-      <Header click={handleClick} isLogin={isLogin} />
-      <Form handleNewObj={handleNewObj} />
-      <Contacts contacts={contacts} />
-      {/* <NavBar onChangePage={setPage} />
+      <NavBar click={handleClick} isLogin={isLogin} />
 
       <Switch>
+        <Route exact path="/">
+          <Main contacts={contacts} />
 
-        <Route path="/form">
+        </Route>
+
+        <Route exact path="/form">
           <Form handleNewObj={handleNewObj} />
         </Route>
 
-        <Route path="/contact">
+        <Route exact path="/contact">
           <Contacts contacts={contacts} />
         </Route>
 
-/* <Header click={handleClick} isLogin={isLogin} />
+        <Route exact path="*">
+          <h1>404 not found</h1>
+        </Route>
 
-<Route exact path="/home">
-  <App />
-</Route>
-
-<Route path="*">
-  <h1>404 not found</h1>
-</Route>
-
-</Switch> */}
+      </Switch>
 
 
     </div>

@@ -1,19 +1,24 @@
-// import React from "react";
+import React from "react";
 
-// function NavBar({ onChangePage }) {
 
-//     function handleLinkClick(e) {
-//         e.preventDefault()
-//         onChangePage(e.target.pathname)
-//     }
 
-//     return (
-//         <nav>
-//             <a onClick={handleLinkClick} href="/">Home</a>
-//             <a onClick={handleLinkClick} href="/form">Form</a>
-//             <a onClick={handleLinkClick} href="/contact">Contact</a>
-//         </nav>
-//     );
-// }
+function NavBar(props) {
 
-// export default NavBar;
+
+    return (
+        <header className="header">
+            <div className="mycontact-logo">
+                <img className="header-img" src="https://www.svgrepo.com/show/13641/phone-call.svg" alt="contact" />
+                <h3>MY CONTACT</h3>
+            </div>
+
+            <h3 className="home">Home</h3>
+            <h3 className="header-form">Forms</h3>
+            <h3 className="header-contact">Contact</h3>
+            <button onClick={props.click} className="header-buton">{props.isLogin ? `Welcome` : "Login"}</button>
+        </header>
+    )
+
+}
+
+export default NavBar 
