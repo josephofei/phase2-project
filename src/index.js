@@ -5,10 +5,10 @@ import App from './Component/App';
 import "./index.css"
 
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>
-// );
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
 
