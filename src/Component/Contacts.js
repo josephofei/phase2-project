@@ -11,11 +11,11 @@ function Contacts({ contacts }) {
         )
     })
 
-    return (
-        <div className="main-div">
-            {contactCard}
-        </div>
-    )
+    // return (
+    //     <div className="main-div">
+    //         {contactCard}
+    //     </div>
+    // )
 }
 
 export default Contacts
