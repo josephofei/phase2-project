@@ -24,6 +24,7 @@ function App() {
     setIsLogin((preState) => !preState)
     console.log("click")
   }
+
   function handleNewObj(obj) {
     setContacts([...contacts, obj])
   }
