@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavBar({ onChangePage }) {
+function OldNavBar({ onChangePage }) {
 
     function handleLinkClick(e) {
         e.preventDefault()
@@ -16,4 +16,4 @@ function NavBar({ onChangePage }) {
     );
 }
 
-export default NavBar;
+export default OldNavBar;

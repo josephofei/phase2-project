@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Switch, Route } from "react-router-dom"
 import NavBar from "./NavBar"
+import OldNavBar from './OldNavBar';
 import Form from './Form';
 import Contacts from "./Contacts"
 import Main from './Main';
@@ -16,7 +17,10 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3000/contacts')
       .then(res => res.json())
-      .then(data => setContacts(data))
+      .then(data => {
+        console.log(data)
+        setContacts(data)
+      })
   }, [])
 
 
@@ -32,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <NavBar click={handleClick} isLogin={isLogin} />
-
+      {/* < OldNavBar /> */}
       <Switch>
         <Route exact path="/">
           <Main contacts={contacts} />

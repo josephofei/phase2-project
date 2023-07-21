@@ -5,7 +5,9 @@ import CantactCard from "./ContactCard";
 
 function Contacts({ contacts }) {
 
-    const contactCard = contacts?.map((contact) => {
+    console.log(typeof (contacts))
+    const contactCard = contacts.map((contact) => {
+        console.log("is this working")
         return (
             <CantactCard key={contact.id} contact={contact} />
         )
